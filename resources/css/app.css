@@ -58,6 +58,7 @@ header {
                 font-weight: 800;
                 color: var(--blue-comics);
                 border-bottom: solid 2px var(--blue-comics);
+                cursor: pointer;
             }
         }
     }
@@ -66,12 +67,14 @@ header {
 footer {
 
     & div#sup-footer {
-        min-height: 100px;
+        min-height: 80px;
         background: linear-gradient(var(--blue-comics), #0063c6, var(--blue-comics));
         font-family: 'Open Sans', sans-serif;
+        display: flex;
+        place-content: center;
 
 
-        & .container {
+        >.container {
             width: 80%;
 
             & .wrapper {
@@ -94,6 +97,10 @@ footer {
                     font-size: .7rem;
                     font-weight: 500;
                 }
+            }
+
+            & .wrapper:hover {
+                cursor: pointer;
             }
         }
 
@@ -139,6 +146,10 @@ footer {
 
                         }
 
+                        & h5:hover {
+                            cursor: default;
+                        }
+
                         & li {
                             text-transform: capitalize;
                             text-decoration: none;
@@ -151,6 +162,10 @@ footer {
                             filter: drop-shadow(.1px .1px .1px white);
 
                             margin-bottom: .1rem;
+                        }
+
+                        & li:hover {
+                            cursor: pointer;
                         }
                     }
                 }
