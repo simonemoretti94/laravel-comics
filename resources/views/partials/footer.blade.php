@@ -1,33 +1,33 @@
-  <footer>
+<footer>
 
-<div id="sup-footer" >
+    <div id="sup-footer" >
 
-        <div class="container d-flex justify-content-between ">
-            <div class="wrapper">
-                <img src="{{ Vite::asset('resources/images/buy-comics-digital-comics.png') }}" alt="buy-digital-comics">
-                <a>digital comics</a>
+            <div class="container d-flex justify-content-between ">
+                <div class="wrapper">
+                    <img src="{{ Vite::asset('resources/images/buy-comics-digital-comics.png') }}" alt="buy-digital-comics">
+                    <a>digital comics</a>
+                </div>
+                <div class="wrapper">
+                    <img src="{{ Vite::asset('resources/images/buy-comics-merchandise.png') }}" alt="buy-digital-comics">
+                    <a>digital comics</a>
+                </div>
+                <div class="wrapper">
+                    <img src="{{ Vite::asset('resources/images/buy-comics-subscriptions.png') }}" alt="buy-digital-comics">
+                    <a>digital comics</a>
+                </div>
+                <div class="wrapper">
+                    <img src="{{ Vite::asset('resources/images/buy-comics-shop-locator.png') }}" alt="buy-digital-comics">
+                    <a>digital comics</a>
+                </div>
+                <div class="wrapper">
+                    <img src="{{ Vite::asset('resources/images/buy-comics-digital-comics.png') }}" alt="buy-digital-comics"
+                        style="font-size: .5rem; color: blue;">
+                    <a>digital comics</a>
+                </div>
             </div>
-            <div class="wrapper">
-                <img src="{{ Vite::asset('resources/images/buy-comics-merchandise.png') }}" alt="buy-digital-comics">
-                <a>digital comics</a>
-            </div>
-            <div class="wrapper">
-                <img src="{{ Vite::asset('resources/images/buy-comics-subscriptions.png') }}" alt="buy-digital-comics">
-                <a>digital comics</a>
-            </div>
-            <div class="wrapper">
-                <img src="{{ Vite::asset('resources/images/buy-comics-shop-locator.png') }}" alt="buy-digital-comics">
-                <a>digital comics</a>
-            </div>
-            <div class="wrapper">
-                <img src="{{ Vite::asset('resources/images/buy-comics-digital-comics.png') }}" alt="buy-digital-comics"
-                    style="font-size: .5rem; color: blue;">
-                <a>digital comics</a>
-            </div>
-        </div>
-</div>
+    </div>
 
-         <div id="background"></div>
+    <div id="background"></div>
 
     <div id="sub-footer">
         <div class="container">
@@ -81,4 +81,25 @@
         </div>
     </div>
 
-    </footer>
+    <div id="close-footer" class="d-flex justify-content-between align-items-center">
+
+        <div class=" container d-flex justify-content-between align-items-center">
+            <div id="start">
+                <a>sign-up-now!</a>
+            </div>
+
+            <div id="end">
+                <a>follow us</a>
+                <div>
+                    <img src="{{Vite::asset('resources/images/footer-facebook.png')}}" alt="facebook_thumbnail">
+                    <img src="{{Vite::asset('resources/images/footer-twitter.png')}}" alt="twitter_thumbnail">
+                    <img src="{{Vite::asset('resources/images/footer-youtube.png')}}" alt="youtube_thumbnail">
+                    <img src="{{Vite::asset('resources/images/footer-pinterest.png')}}" alt="pinterest_thumbnail">
+                    <img src="{{Vite::asset('resources/images/footer-periscope.png')}}" alt="periscope_thumbnail">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</footer>
