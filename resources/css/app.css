@@ -44,7 +44,9 @@ header {
             flex-direction: row;
             justify-content: space-evenly;
 
-            & li {
+            & a,
+            li {
+                text-decoration: none;
                 color: var(--main-dark);
                 text-decoration: none;
                 text-transform: uppercase;
@@ -54,7 +56,8 @@ header {
                 font-weight: bolder;
             }
 
-            & li:hover {
+            & a,
+            li:hover {
                 font-weight: 800;
                 color: var(--blue-comics);
                 border-bottom: solid 2px var(--blue-comics);

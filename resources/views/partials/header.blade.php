@@ -2,6 +2,7 @@
     <div class="container d-flex justify-content-between align-items-center">
         <img src="{{ Vite::asset('resources/images/dc-logo.png') }}" class="img-fluid rounded-top" alt=""/>
         <ul>
+            <a href="{{route('json-api')}}">json</a>
             <li href="">characters</li>
             <li href="">comics</li>
             <li href="">movies</li>
