@@ -104,7 +104,7 @@ main {
                 padding: 1rem;
 
                 >div#col-wrapper {
-                    background-color: red;
+                    /* background-color: red; */
                 }
             }
         }
