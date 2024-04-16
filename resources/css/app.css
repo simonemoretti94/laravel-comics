@@ -76,6 +76,7 @@ main {
         background-image: url(../images/jumbotron.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+
     }
 
 
@@ -83,16 +84,16 @@ main {
         position: relative;
         /* max-width: 720px; */
 
-        >span#absolute {
+        /* >span#absolute {
             position: absolute;
-            top: 0;
-            left: 0;
+            top: -40;
+            left: 10;
             z-index: 1;
             color: white;
             padding: .5rem .5rem;
             background-color: #0063c6;
 
-        }
+        } */
 
         /* & h1 {
             color: white;
@@ -100,6 +101,22 @@ main {
 
         & div#cards-row {
             margin-top: 1rem;
+            position: relative;
+
+            >span#absolute {
+                width: 120px;
+                position: absolute;
+                top: -40px;
+                left: 10px;
+                z-index: 1;
+                text-align: center;
+                text-transform: uppercase;
+                font-size: small;
+                color: white;
+                padding: .5rem .5rem;
+                background-color: #0063c6;
+
+            }
 
             /* height: 100px; */
             & div#col {
@@ -112,7 +129,7 @@ main {
                     width: 100%;
 
                     & div#col-img {
-                        height: 70%;
+                        height: 90%;
 
                         >img {
                             height: 100%;
@@ -121,7 +138,7 @@ main {
                     }
 
                     & div#col-title {
-                        height: 30%;
+                        height: 10%;
 
                         >p {
                             text-align: center;

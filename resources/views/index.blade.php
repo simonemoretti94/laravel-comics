@@ -14,11 +14,12 @@ bg-dark
 
 @section('content')
 
-<div id="jumbotron" ></div>
+<div id="jumbotron" >
+</div>
 
 <div id="cards-container" class="container" >
-    <span id="absolute" >current series</span>
     {{-- <h1>content goes here</h1> --}}
+    <span id="absolute" >current series</span>
     <div id="cards-row" class="row">
         @foreach ($comics as $comic)
             <div id="col" class="col-lg-2 col-md-4 col-sm-6">
