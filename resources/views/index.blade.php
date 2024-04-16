@@ -17,11 +17,17 @@ bg-dark
 <div id="jumbotron" ></div>
 
 <div id="cards-container" class="container" >
-<span id="absolute" >current series</span>
-<h1 style='color: white;'>content goes here</h1>
-<div id="cards-row" class="row">
-    
-</div>
+    <span id="absolute" >current series</span>
+    {{-- <h1>content goes here</h1> --}}
+    <div id="cards-row" class="row">
+        @foreach ($comics as $comic)
+            <div id="col" class="col-lg-3 col-md-6 col-sm-12">
+                <div id="col-wrapper">
+                        <p>{{$comic['title']}}</p>
+                </div>
+            </div>
+        @endforeach
+    </div>
 </div>
 
 
