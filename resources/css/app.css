@@ -81,6 +81,7 @@ main {
 
     & div#cards-container {
         position: relative;
+        /* max-width: 720px; */
 
         >span#absolute {
             position: absolute;
@@ -98,13 +99,38 @@ main {
         } */
 
         & div#cards-row {
+            margin-top: 1rem;
 
             /* height: 100px; */
             & div#col {
                 padding: 1rem;
+                height: 200px;
 
                 >div#col-wrapper {
                     /* background-color: red; */
+                    height: 100%;
+                    width: 100%;
+
+                    & div#col-img {
+                        height: 70%;
+
+                        >img {
+                            height: 100%;
+                            width: 100%;
+                        }
+                    }
+
+                    & div#col-title {
+                        height: 30%;
+
+                        >p {
+                            text-align: center;
+                            text-wrap: wrap;
+                            font-size: small;
+                            text-transform: uppercase;
+                            color: white;
+                        }
+                    }
                 }
             }
         }

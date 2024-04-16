@@ -22,15 +22,15 @@ bg-dark
     <div id="cards-row" class="row">
         @foreach ($comics as $comic)
             <div id="col" class="col-lg-2 col-md-4 col-sm-6">
-                <div id="col-wrapper" class="card">
-                    <div class="card-body">
+                <div id="col-wrapper" class="">
+                    <div id="col-img" class="">
                         <img
                             src="{{$comic['thumb']}}"
                             class="img-fluid rounded-top"
                             alt="{{$comic['title']}}"
                         />  
                     </div>
-                    <div class="card-footer">
+                    <div id="col-title" class="">
                         <p>{{$comic['title']}}</p>
                     </div>
                 </div>
