@@ -1,15 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PagesController;
 
-Route::get('/', function () {
-
-    //referred to config/comics
-    $comics = config('comics');
-    //dd($comics);
-
-    return view('index' , compact('comics'));
-})->name('index');
+Route::get('/',[PagesController::class, 'index'])->name('index');
 
 
 Route::get('/json' , function(){
@@ -23,10 +17,4 @@ Route::get('/json' , function(){
 
 //test route
 
-Route::get('/test', function(){
-     //referred to config/comics
-     $comics = config('comics');
-     //dd($comics);
-
-    return view('/test', compact('comics') );
-})->name('test');
+Route::get('/test', [PagesController::class , 'test'])->name('test');
