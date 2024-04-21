@@ -29,9 +29,12 @@ header {
     border-bottom: solid .25px #cccccc;
 
     & .container {
-        >img#logo {
-            width: 60px;
-            aspect-ratio: 1 / 1;
+        >a {
+
+            >img#logo {
+                width: 60px;
+                aspect-ratio: 1 / 1;
+            }
         }
 
         >img#logo:hover {
@@ -48,7 +51,6 @@ header {
             li {
                 text-decoration: none;
                 color: var(--main-dark);
-                text-decoration: none;
                 text-transform: uppercase;
                 list-style: none;
                 margin: auto .4rem;
@@ -56,8 +58,7 @@ header {
                 font-weight: bolder;
             }
 
-            & a,
-            li:hover {
+            & a:hover {
                 font-weight: 800;
                 color: var(--blue-comics);
                 border-bottom: solid 2px var(--blue-comics);
@@ -129,9 +130,14 @@ main {
                         >p {
                             text-align: center;
                             text-wrap: wrap;
-                            font-size: small;
-                            text-transform: uppercase;
-                            color: white;
+
+                            >a {
+                                font-size: small;
+                                text-transform: uppercase;
+                                color: white;
+                                cursor: pointer;
+                                text-decoration: none;
+                            }
                         }
                     }
                 }

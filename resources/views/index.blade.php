@@ -32,7 +32,7 @@ bg-dark
                         />  
                     </div>
                     <div id="col-title" class="">
-                        <p>{{$comic['title']}}</p>
+                        <p><a href="/comic/{{$comic['id']}}">{{$comic['title']}}</a></p>
                     </div>
                 </div>
             </div>

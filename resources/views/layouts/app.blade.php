@@ -24,4 +24,5 @@
     {{-- footer --}}
     @include('partials.footer')
     </body>
+    @yield('style')
 </html>
